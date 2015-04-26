@@ -1,21 +1,17 @@
 #!/usr/bin/env python3
 
 
-def __show_dices(list_dices):
-
-    if list_dices
-    pass
-
-def show_dices(quantity):
-
-
-
-
+def show_pairs_dices(quantity):
+    for val in range(quantity):
+        print(quantity)
+        quantity -= 1
+        show_pairs_dices(quantity)
 
 
 def main():
-    quantity = int(input("Ingrese la cantidad de dados: "))
-    show_dices(quantity)
+    quantity_dices = 10
+    show_pairs_dices(quantity_dices)
+
 
 if __name__ == '__main__':
     main()
